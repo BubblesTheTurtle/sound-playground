@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import functionPlot from 'function-plot'
 
 
-export const FunctionPlot = React.memo(({ options }) => {
+const FunctionPlot = React.memo(({ options }) => {
   const rootEl = useRef(null)
 
   useEffect(() => {
@@ -13,3 +13,7 @@ export const FunctionPlot = React.memo(({ options }) => {
 
   return (<div ref={rootEl} />)
 }, () => false)
+
+FunctionPlot.displayName = "FunctionPlot";
+
+export default FunctionPlot;

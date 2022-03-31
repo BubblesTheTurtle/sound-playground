@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Oscillator, Destination } from 'tone'
 import { Slider, Input, Grid, InputAdornment, Button } from '@material-ui/core'
-import { FunctionPlot } from './FunctionPlot'
+import FunctionPlot from './FunctionPlot'
  
 
 import styles from '../../styles/PureTone.module.css'

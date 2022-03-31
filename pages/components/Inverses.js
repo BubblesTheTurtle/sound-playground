@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Oscillator } from 'tone'
 import { Slider, Input, Grid, InputAdornment, Button, Checkbox, FormGroup, FormControlLabel } from '@material-ui/core'
-import { FunctionPlot } from './FunctionPlot'
+import FunctionPlot from './FunctionPlot'
  
 
 import styles from '../../styles/Inverses.module.css'
