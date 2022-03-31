@@ -1,0 +1,22 @@
+.card {
+    width: 60vw;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.slider {
+   width: 40vw;
+}
+
+.inputPair {
+    margin: auto;
+    width: 50vw;
+    padding: 12px;
+}
+
+.amplitude {
+    margin: auto;
+    width: 40vw;
+    padding: 12px;
+}

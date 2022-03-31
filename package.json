@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "function-plot": "^1.22.8",
     "next": "12.1.2",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "react-katex": "^2.0.2",
+    "tone": "^14.7.77"
   },
   "devDependencies": {
     "eslint": "8.12.0",
